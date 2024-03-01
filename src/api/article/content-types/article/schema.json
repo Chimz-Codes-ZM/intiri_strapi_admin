@@ -51,8 +51,10 @@
         "shared.media",
         "shared.quote",
         "shared.rich-text",
+        "shared.seo",
         "shared.slider"
-      ]
+      ],
+      "required": true
     }
   }
 }

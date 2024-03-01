@@ -47,6 +47,8 @@ export interface SharedSeo extends Schema.Component {
     metaTitle: Attribute.String & Attribute.Required;
     metaDescription: Attribute.Text & Attribute.Required;
     shareImage: Attribute.Media;
+    metaImage: Attribute.Media;
+    Keywords: Attribute.String;
   };
 }
 

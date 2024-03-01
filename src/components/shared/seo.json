@@ -23,6 +23,20 @@
       "allowedTypes": [
         "images"
       ]
+    },
+    "metaImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Keywords": {
+      "type": "string"
     }
   }
 }
